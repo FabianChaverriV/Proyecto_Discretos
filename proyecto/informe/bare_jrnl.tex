@@ -1,0 +1,339 @@
+\documentclass[journal]{IEEEtran}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{float} 
+
+\usepackage[
+    backend=biber,
+    style=ieee,
+  ]{biblatex}
+\addbibresource{sample.bib}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage[justification=centering]{caption}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+
+%Estos paquetes son para incluir esquemas de circuito escritos en circuitkiz
+\usepackage[siunitx,oldvoltagedirection]{circuitikz}
+\usepackage{standalone}
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+
+\usepackage{url}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Definición de datos del documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Título del trabajo
+\newcommand{\titulo}{Proyecto de circuitos discretos}
+
+% Datos del primer autor
+\newcommand{\nombreA}{Fabián}
+\newcommand{\apellidoA}{Chaverri Vargas}
+\newcommand{\correoA}{f.chaverri.1@estudiantec.cr}
+
+% Datos del segundo autor. Si no hay segundo autor, dejar las llaves vacías
+\newcommand{\nombreB}{John}
+\newcommand{\apellidoB}{Doe}
+\newcommand{\correoB}{jodoe@mail.com}
+
+% Datos del tercer autor. Si no hay terecer autor, dejar las llaves vacías
+\newcommand{\nombreC}{Daniel}
+\newcommand{\apellidoC}{Smith}
+\newcommand{\correoC}{dsmith@mail.com}
+
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\figurename}{Fig.} 
+\renewcommand\IEEEkeywordsname{Palabras clave}
+\title{\titulo}
+\author{\nombreA~\apellidoA, \correoA
+\ifx\nombreB\undefined\else
+\\ \nombreB~\apellidoB, \correoB
+\fi
+\ifx\nombreC\undefined\else
+\\ \nombreC~\apellidoC, \correoC
+\fi
+}
+
+% make the title area
+\maketitle
+
+% Encabezado del paper
+\markboth{Circuitos discretos. \apellidoA\ifx\nombreB\undefined\else, \apellidoB\fi\ifx\nombreC\undefined\else, \apellidoC\fi. \titulo}%
+{}
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+En este proyecto se diseñó y simuló un amplificador operacional CMOS utilizando la tecnología OnSemi C5 de 500 nm en LTspice. El objetivo fue dimensionar los transistores del circuito para cumplir con las corrientes de polarización especificadas y analizar su comportamiento en frecuencia. Para ello, se realizaron cálculos teóricos basados en espejos de corriente, parámetros MOSFET y ecuaciones de ganancia, complementados con simulaciones paramétricas para ajustar los anchos de los transistores M7 y M8. Finalmente, se obtuvo la ganancia de lazo abierto y el ancho de banda del amplificador, comparando los resultados teóricos con los simulados y evaluando las diferencias observadas.
+
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+IEEE, IEEEtran, journal, \LaTeX, paper, template.
+\end{IEEEkeywords}
+
+
+\section{Introducción}
+\IEEEPARstart{L}{os} amplificadores operacionales son bloques fundamentales en el diseño de circuitos electrónicos analógicos, debido a su capacidad para amplificar señales y realizar funciones como filtrado, integración, diferenciación y acondicionamiento de señales. Gracias a su alta ganancia y versatilidad, son ampliamente utilizados en sistemas de instrumentación, comunicaciones, control y procesamiento de señales.
+
+En los circuitos integrados modernos, los amplificadores operacionales se implementan mediante transistores MOSFET organizados en etapas funcionales como pares diferenciales, espejos de corriente y etapas de salida. El análisis y dimensionamiento adecuado de estos dispositivos es esencial para garantizar el correcto funcionamiento del amplificador y cumplir con especificaciones de ganancia, polarización y respuesta en frecuencia.
+
+En este proyecto se diseñó un amplificador operacional CMOS utilizando la tecnología OnSemi C5 de 500 nm y el simulador LTspice. A partir de las especificaciones de corriente establecidas, se determinaron las dimensiones de los transistores M7 y M8 mediante cálculos teóricos y simulaciones paramétricas. Posteriormente, se analizó la respuesta en frecuencia del circuito para obtener su ganancia de lazo abierto y ancho de banda, comparando los resultados simulados con los valores calculados teóricamente y evaluando las diferencias observadas.
+
+\section{Procedimiento}
+\subsection{Análisis del circuito}
+El circuito diseñado corresponde a un amplificador operacional CMOS de dos etapas implementado con transistores MOSFET en tecnología OnSemi C5. La primera etapa está formada por un par diferencial NMOS, compuesto por los transistores M3 y M4, el cual recibe las señales de entrada $v_{inn}$ y $v_{inp}$. Esta etapa permite convertir la diferencia entre ambas señales de entrada en una variación de corriente.
+
+Los transistores M1 y M2 forman una carga activa PMOS que funciona como un espejo de corriente. Esta configuración permite aumentar la resistencia equivalente observada en el nodo de salida de la primera etapa, incrementando así la ganancia total del amplificador. Por otra parte, los transistores M5 y M6 constituyen el espejo de corriente de polarización encargado de establecer las corrientes de operación del par diferencial.
+
+La segunda etapa está formada por los transistores M7 y M8. Esta etapa recibe la señal amplificada por la primera etapa y proporciona la amplificación adicional necesaria para obtener la señal final en el nodo de salida $v_{out}$. El correcto funcionamiento del amplificador requiere que los transistores M1, M2, M3 y M4 conduzcan una corriente de $22.5,\mu\text{A}$, que M5 y M6 conduzcan $45,\mu\text{A}$, y que M7 y M8 conduzcan $100,\mu\text{A}$.
+
+El circuito opera con una alimentación simétrica de $\pm 2.5,\text{V}$, lo que permite establecer un punto de operación adecuado para todos los dispositivos MOSFET. A partir de estas condiciones de polarización se realiza el dimensionamiento de los transistores M7 y M8, así como el análisis de la ganancia de lazo abierto y de la respuesta en frecuencia del amplificador operacional.
+
+
+\subsection{Cálculo de M8}
+
+
+El transistor M8 forma parte del espejo de corriente encargado de establecer la corriente de polarización de la segunda etapa del amplificador. Según las especificaciones del diseño, el transistor M8 debe conducir una corriente de $100,\mu\text{A}$. Para obtener una primera aproximación del ancho de canal requerido, se utilizó la relación ideal de espejo de corriente:
+
+\begin{equation}
+\frac{I_{D8}}{I_{D6}} =
+\frac{(W/L)_8}{(W/L)_6}
+\end{equation}
+
+Debido a que el transistor M6 conduce una corriente de $45,\mu\text{A}$ y posee dimensiones $W_6=5,\mu\text{m}$ y $L_6=0.5,\mu\text{m}$, se tiene:
+
+\begin{equation}
+\left(\frac{W}{L}\right)_6 =
+\frac{5,\mu\text{m}}{0.5,\mu\text{m}} = 10
+\end{equation}
+
+Por lo tanto, despejando el ancho de M8:
+
+\begin{equation}
+\left(\frac{W}{L}\right)_8 =
+\frac{I_{D8}}{I_{D6}}
+\left(\frac{W}{L}\right)_6
+\end{equation}
+
+\begin{equation}
+\left(\frac{W}{L}\right)_8 =
+\frac{100,\mu\text{A}}{45,\mu\text{A}}(10)
+=22.22
+\end{equation}
+
+Como la longitud de canal definida para M8 es $L_8=0.5,\mu\text{m}$, el ancho teórico resulta:
+
+\begin{equation}
+W_8 = 22.22(0.5,\mu\text{m})
+=11.11,\mu\text{m}
+\end{equation}
+
+Este valor se utiliza como una aproximación inicial, ya que en la simulación pueden presentarse diferencias debido a efectos no ideales del transistor, como la modulación de longitud de canal y la diferencia entre la longitud geométrica y la longitud efectiva. Por esta razón, el valor final de $W_8$ se ajusta mediante una simulación paramétrica en LTspice, buscando que la corriente de drenador de M8 sea aproximadamente $100,\mu\text{A}$.
+
+\subsection{Ajuste de M7}
+
+El transistor M7 forma parte de la segunda etapa del amplificador operacional y debe conducir una corriente aproximada de $100,\mu\text{A}$. A diferencia del transistor M8, el ancho de M7 no se determina únicamente mediante una relación ideal de espejo de corriente, sino que se ajusta con el objetivo de establecer correctamente el punto de operación de la salida.
+
+Para realizar este ajuste, se consideran ambas entradas del amplificador conectadas a tierra, es decir:
+
+\begin{equation}
+v_{inp}=v_{inn}=0,\text{V}
+\end{equation}
+
+Bajo esta condición, la señal diferencial de entrada es nula y, por lo tanto, la salida ideal del amplificador debería ubicarse alrededor de $0,\text{V}$. El ancho $W_7$ se selecciona de manera que el nodo de salida $v_{out}$ cruce por cero, lo cual permite reducir el offset de salida y centrar el punto de operación del amplificador.
+
+Por esta razón, el ajuste de $W_7$ se realiza mediante una simulación paramétrica, variando el ancho del transistor y observando el valor de $v_{out}$. El valor óptimo de $W_7$ corresponde al punto en el que la tensión de salida se aproxima a $0,\text{V}$.
+
+
+\subsection{Cálculo teórico de la ganancia}
+
+
+La ganancia de lazo abierto del amplificador operacional se obtiene considerando la contribución de las dos etapas de amplificación. Según el modelo de pequeña señal, la ganancia total está dada por:
+
+\begin{equation}
+A_V =
+-g_{m4}\left(r_{o2}\parallel r_{o4}\right)
+\cdot
+-g_{m7}\left(r_{o7}\parallel r_{o8}\right)
+\end{equation}
+
+donde $g_m$ corresponde a la transconductancia del transistor y $r_o$ representa la resistencia de salida debida a la modulación de longitud de canal. Para cada transistor, la resistencia de salida se calcula mediante:
+
+\begin{equation}
+r_o=\frac{1}{\lambda I_D}
+\end{equation}
+
+En la primera etapa se utilizan los transistores M2 y M4, los cuales conducen una corriente de $22.5,\mu\text{A}$. Por lo tanto:
+
+\begin{equation}
+r_{o2}=
+\frac{1}{(0.212)(22.5\times10^{-6})}
+=209.64,k\Omega
+\end{equation}
+
+\begin{equation}
+r_{o4}=
+\frac{1}{(0.221)(22.5\times10^{-6})}
+=201.11,k\Omega
+\end{equation}
+
+La resistencia equivalente de salida de la primera etapa se obtiene como:
+
+\begin{equation}
+R_{o1}=r_{o2}\parallel r_{o4}
+\end{equation}
+
+\begin{equation}
+R_{o1}=
+\frac{(209.64,k\Omega)(201.11,k\Omega)}
+{209.64,k\Omega+201.11,k\Omega}
+=102.67,k\Omega
+\end{equation}
+
+Para la segunda etapa se consideran los transistores M7 y M8, los cuales conducen una corriente de $100,\mu\text{A}$. Sus resistencias de salida se calculan como:
+
+\begin{equation}
+r_{o7}=
+\frac{1}{(0.086)(100\times10^{-6})}
+=116.28,k\Omega
+\end{equation}
+
+\begin{equation}
+r_{o8}=
+\frac{1}{(0.114)(100\times10^{-6})}
+=87.72,k\Omega
+\end{equation}
+
+De manera similar, la resistencia equivalente de salida de la segunda etapa es:
+
+\begin{equation}
+R_{o2}=r_{o7}\parallel r_{o8}
+\end{equation}
+
+\begin{equation}
+R_{o2}=
+\frac{(116.28,k\Omega)(87.72,k\Omega)}
+{116.28,k\Omega+87.72,k\Omega}
+=50.00,k\Omega
+\end{equation}
+
+La transconductancia de los transistores se calculó a partir de los parámetros de la tecnología OnSemi C5. Para ello, se empleó la expresión:
+
+\begin{equation}
+g_m=\sqrt{2\mu C_{ox}\frac{W}{L}I_D}
+\end{equation}
+
+donde $\mu$ corresponde a la movilidad de portadores, $C_{ox}$ es la capacitancia por unidad de área del óxido de compuerta, $W/L$ es la relación geométrica del transistor e $I_D$ es la corriente de drenador.
+
+La capacitancia del óxido se obtuvo mediante:
+
+\begin{equation}
+C_{ox}=\frac{\varepsilon_{ox}}{t_{ox}}
+\end{equation}
+
+donde $\varepsilon_{ox}=3.9\varepsilon_0$ y $t_{ox}=13.5,\text{nm}$ corresponde al espesor del óxido de compuerta especificado para la tecnología C5. Sustituyendo estos valores se obtiene:
+
+\begin{equation}
+C_{ox}=2.56\times10^{-3},\text{F/m}^2
+\end{equation}
+
+Para el transistor M4 se utilizó una movilidad electrónica de $\mu_n=458.4,\text{cm}^2/\text{Vs}$, una corriente de drenador de $22.5,\mu\text{A}$ y una relación geométrica $(W/L)=5/0.5$, obteniéndose:
+
+\begin{equation}
+g_{m4}=226.4,\mu\text{S}
+\end{equation}
+
+De manera similar, para el transistor M7 se empleó una movilidad electrónica de $\mu_n=212.0,\text{cm}^2/\text{Vs}$, una corriente cercana a $100,\mu\text{A}$ y una relación geométrica $(W/L)=19/0.5$, resultando:
+
+\begin{equation}
+g_{m7}=616.6,\mu\text{S}
+\end{equation}
+
+Estos valores fueron utilizados para estimar la ganancia teórica de lazo abierto del amplificador operacional:
+
+\begin{equation}
+A_V=
+(g_{m4}R_{o1})(g_{m7}R_{o2})
+\end{equation}
+
+\begin{equation}
+A_V=
+(226.4\times10^{-6})(102.67\times10^{3})
+(616.6\times10^{-6})(50.00\times10^{3})
+\end{equation}
+
+\begin{equation}
+A_V=716.05
+\end{equation}
+
+Finalmente, la ganancia en decibeles se obtiene mediante:
+
+\begin{equation}
+A_V(dB)=20\log_{10}(|A_V|)
+\end{equation}
+
+\begin{equation}
+A_V(dB)=20\log_{10}(716.05)=57.10,\text{dB}
+\end{equation}
+
+Este procedimiento permite obtener una estimación teórica de la ganancia de lazo abierto del amplificador, la cual posteriormente se compara con la ganancia obtenida mediante la simulación en LTspice.
+
+
+\section{Circuito LTspice}
+
+Con el fin de implementar el amplificador operacional CMOS propuesto, se desarrollaron distintos esquemáticos en LTspice. Inicialmente se construyó el circuito del amplificador operacional utilizando los transistores MOSFET de la tecnología OnSemi C5 y las dimensiones especificadas para cada dispositivo. Posteriormente se creó una vista de símbolo para facilitar su utilización como bloque jerárquico dentro de los circuitos de prueba. Finalmente se implementaron los testbench necesarios para realizar las simulaciones de polarización y respuesta en frecuencia.
+
+La Figura \ref{fig:opamp} muestra el esquemático completo del amplificador operacional.
+
+[Figura del OP-AMP]
+
+La Figura \ref{fig:simbolo} presenta el símbolo jerárquico utilizado para representar el amplificador operacional dentro de LTspice.
+
+[Figura del símbolo]
+
+La Figura \ref{fig:testbench} muestra el circuito de prueba empleado para realizar las simulaciones paramétricas de los transistores M7 y M8.
+
+[Figura del testbench]
+
+Finalmente, la Figura \ref{fig:lazoabierto} presenta el circuito utilizado para medir la ganancia de lazo abierto y la respuesta en frecuencia del amplificador operacional.
+
+[Figura de medición de ganancia]
+
+
+
+\section{Simulación}
+\section{Resultados}
+\section{Discusión}
+\section{COnclusión}
+\section{Referencias}
+
+
+
+% that's all folks
+\end{document}
+
+

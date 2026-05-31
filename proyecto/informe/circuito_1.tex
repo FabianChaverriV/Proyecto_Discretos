@@ -1,0 +1,20 @@
+\documentclass[convert={density=600}]{standalone}
+\usepackage[utf8]{inputenc}
+%\usepackage[siunitx]{circuitikz}
+\usepackage[siunitx,oldvoltagedirection]{circuitikz}
+\standaloneenv{circuitikz}
+
+\title{Circuito de medición}
+\author{Javier Pérez}
+
+\begin{document}
+
+    \begin{circuitikz}[american] \draw
+    (0,0) -- (4,0)
+    (0,0) to[vsource,v=40 V] (0,4)
+    (0,4) to[R,l=3 k$\Omega$,f=$I_{R_1}$,v=$V_{R_1}$] (4,4)
+    (4,4) to[R,l=5 k$\Omega$,f=$I_{R_2}$,v=$V_{R_2}$] (4,0)
+    ;
+    \end{circuitikz}
+\end{document}{}
+
