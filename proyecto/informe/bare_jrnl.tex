@@ -307,22 +307,23 @@ Este procedimiento permite obtener una estimación teórica de la ganancia de la
 
 Con el fin de implementar el amplificador operacional CMOS propuesto, se desarrollaron distintos esquemáticos en LTspice. Inicialmente se construyó el circuito del amplificador operacional utilizando los transistores MOSFET de la tecnología OnSemi C5 y las dimensiones especificadas para cada dispositivo. Posteriormente se creó una vista de símbolo para facilitar su utilización como bloque jerárquico dentro de los circuitos de prueba. Finalmente se implementaron los testbench necesarios para realizar las simulaciones de polarización y respuesta en frecuencia.
 
-La Figura \ref{fig:opamp} muestra el esquemático completo del amplificador operacional.
+La Figura 1 muestra el esquemático completo del amplificador operacional.
 
-[Figura del OP-AMP]
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{Captura de pantalla 2026-05-31 155039.png}
+    \caption{Esquemático del amplificador operacional CMOS implementado en LTspice.}
+    \label{fig:opamp}
+\end{figure}
 
-La Figura \ref{fig:simbolo} presenta el símbolo jerárquico utilizado para representar el amplificador operacional dentro de LTspice.
+La Figura 2 muestra el testbench utilizado para determinar el ancho óptimo del transistor M8. Para ello se realizó una simulación paramétrica variando el parámetro $W_8$ entre $1\,\mu\mathrm{m}$ y $20\,\mu\mathrm{m}$, manteniendo ambas entradas del amplificador conectadas a tierra. El objetivo fue encontrar el valor de ancho que produjera una corriente de drenador cercana a $100\,\mu\mathrm{A}$.
 
-[Figura del símbolo]
-
-La Figura \ref{fig:testbench} muestra el circuito de prueba empleado para realizar las simulaciones paramétricas de los transistores M7 y M8.
-
-[Figura del testbench]
-
-Finalmente, la Figura \ref{fig:lazoabierto} presenta el circuito utilizado para medir la ganancia de lazo abierto y la respuesta en frecuencia del amplificador operacional.
-
-[Figura de medición de ganancia]
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Captura de pantalla 2026-05-31 155024.png}
+    \caption{Circuito de prueba utilizado para el ajuste paramétrico del transistor M8.}
+    \label{fig:testbench_w8}
+\end{figure}
 
 
 \section{Simulación}
