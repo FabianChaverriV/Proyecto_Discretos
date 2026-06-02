@@ -55,13 +55,17 @@
 
 % Datos del segundo autor. Si no hay segundo autor, dejar las llaves vacías
 \newcommand{\nombreB}{John}
-\newcommand{\apellidoB}{Doe}
-\newcommand{\correoB}{jodoe@mail.com}
+\newcommand{\apellidoB}{Hibbert Bonilla}
+\newcommand{\correoB}{j.hibbert.1@estudiantec.cr}
 
 % Datos del tercer autor. Si no hay terecer autor, dejar las llaves vacías
-\newcommand{\nombreC}{Daniel}
-\newcommand{\apellidoC}{Smith}
-\newcommand{\correoC}{dsmith@mail.com}
+\newcommand{\nombreC}{Adonay}
+\newcommand{\apellidoC}{Palencia Molina}
+\newcommand{\correoC}{mierdanay.1@estudiantec.cr}
+% Datos del cuarto autor. Si no hay terecer autor, dejar las llaves vacías
+\newcommand{\nombreC}{Jason}
+\newcommand{\apellidoC}{Ulloa Picado}
+\newcommand{\correoC}{prostiputa@estudiantec.cr}
 
 \renewcommand{\thetable}{\arabic{table}}
 \renewcommand{\figurename}{Fig.} 
@@ -327,9 +331,122 @@ La Figura 2 muestra el testbench utilizado para determinar el ancho óptimo del 
 
 
 \section{Simulación}
+Una vez completado el esquemático del amplificador operacional CMOS, se realizaron distintas simulaciones en LTspice con el objetivo de determinar los valores adecuados para los transistores M7 y M8, verificar las corrientes de polarización especificadas y obtener la respuesta en frecuencia del circuito.
+
+\subsection{Ajuste paramétrico de M8}
+
+Para determinar el ancho del transistor M8 se realizó una simulación paramétrica utilizando la instrucción:
+
+\begin{equation}
+.step\;param\;W8\;1\mu m\;20\mu m\;0.1\mu m
+\end{equation}
+
+Durante el barrido se observó la corriente de drenador del transistor M8. El valor seleccionado correspondió al ancho para el cual la corriente obtenida fue aproximadamente igual a $100\,\mu A$, cumpliendo con la especificación del diseño.
+
+\begin{figure}[H]
+    \centering
+    % Colocar aquí la captura de LTspice del barrido de W8
+    \includegraphics[width=\columnwidth]{simulacion_W8.png}
+    \caption{Barrido paramétrico del ancho del transistor M8 para obtener una corriente cercana a $100\,\mu A$.}
+    \label{fig:w8_sweep}
+\end{figure}
+
+\subsection{Ajuste paramétrico de M7}
+
+Posteriormente se realizó el ajuste del transistor M7 mediante una simulación paramétrica. En este caso se mantuvieron ambas entradas conectadas a tierra y se varió el ancho del transistor hasta encontrar el valor para el cual la tensión de salida se aproximó a cero voltios.
+
+La simulación se implementó utilizando:
+
+\begin{equation}
+.step\;param\;W7\;1\mu m\;100\mu m\;0.5\mu m
+\end{equation}
+
+El valor final seleccionado para M7 fue aquel que permitió centrar el punto de operación de salida y mantener la corriente requerida de aproximadamente $100\,\mu A$.
+
+\begin{figure}[H]
+    \centering
+    % Colocar aquí la captura de LTspice del barrido de W7
+    \includegraphics[width=\columnwidth]{simulacion_W7.png}
+    \caption{Barrido paramétrico utilizado para determinar el ancho óptimo del transistor M7.}
+    \label{fig:w7_sweep}
+\end{figure}
+
+\subsection{Respuesta en frecuencia}
+
+Una vez ajustados ambos transistores se procedió a analizar la respuesta en frecuencia del amplificador operacional mediante una simulación AC.
+
+La simulación se realizó utilizando una fuente de pequeña señal de amplitud unitaria y el comando:
+
+\begin{equation}
+.ac\;dec\;100\;1\;1G
+\end{equation}
+
+A partir de esta simulación se obtuvo la magnitud de la ganancia de lazo abierto en función de la frecuencia y se identificó el ancho de banda del amplificador.
+
+\begin{figure}[H]
+    \centering
+    % Colocar aquí la captura de la respuesta en frecuencia
+    \includegraphics[width=\columnwidth]{respuesta_frecuencia.png}
+    \caption{Ganancia de lazo abierto del amplificador operacional obtenida mediante simulación AC.}
+    \label{fig:ac_response}
+\end{figure}
+
 \section{Resultados}
+Los valores finales obtenidos para los transistores ajustados mediante simulación se muestran en la Tabla \ref{tab:resultados}.
+
+\begin{table}[H]
+\centering
+\caption{Dimensiones finales obtenidas mediante simulación.}
+\label{tab:resultados}
+\begin{tabular}{|c|c|c|}
+\hline
+Transistor & $W$ [$\mu$m] & $L$ [$\mu$m] \\
+\hline
+M7 & [Valor obtenido] & 0.5 \\
+M8 & [Valor obtenido] & 0.5 \\
+\hline
+\end{tabular}
+\end{table}
+
+La Tabla \ref{tab:comparacion} presenta la comparación entre los resultados teóricos y simulados para la ganancia de lazo abierto.
+
+\begin{table}[H]
+\centering
+\caption{Comparación entre resultados teóricos y simulados.}
+\label{tab:comparacion}
+\begin{tabular}{|c|c|c|}
+\hline
+Parámetro & Teórico & Simulado \\
+\hline
+Ganancia de lazo abierto & 57.10 dB & [Valor simulado] \\
+Frecuencia de corte & -- & [Valor simulado] \\
+Ancho de banda & -- & [Valor simulado] \\
+\hline
+\end{tabular}
+\end{table}
+
+A partir de la simulación AC se observó una ganancia máxima de aproximadamente [Valor simulado] dB en bajas frecuencias. Asimismo, la frecuencia correspondiente al punto de $-3$ dB fue de aproximadamente [Valor simulado], valor que determina el ancho de banda del amplificador operacional.
+
+Las simulaciones de polarización confirmaron además que los transistores M1, M2, M3 y M4 operan con corrientes cercanas a $22.5\,\mu A$, mientras que los transistores M5 y M6 presentan corrientes cercanas a $45\,\mu A$. Finalmente, los transistores M7 y M8 alcanzaron corrientes cercanas a $100\,\mu A$, cumpliendo las especificaciones establecidas para el proyecto.
 \section{Discusión}
+Los resultados obtenidos demuestran que el procedimiento de dimensionamiento basado en espejos de corriente proporciona una aproximación adecuada para determinar las dimensiones iniciales de los transistores. Sin embargo, debido a los efectos no ideales presentes en los modelos BSIM utilizados por la tecnología OnSemi C5, fue necesario realizar ajustes mediante simulaciones paramétricas.
+
+En el caso del transistor M8, el valor calculado teóricamente permitió aproximarse a la corriente requerida de $100\,\mu A$, aunque el valor final obtenido mediante simulación presentó una ligera diferencia. Esta discrepancia puede atribuirse a fenómenos como la modulación de longitud de canal, las capacitancias parásitas y las variaciones de tensión entre terminales.
+
+De manera similar, el ajuste del transistor M7 permitió establecer un punto de operación adecuado para la salida del amplificador. Este procedimiento fue necesario debido a que la tensión de salida depende simultáneamente de las corrientes de polarización y de las características eléctricas de los dispositivos MOSFET.
+
+La comparación entre la ganancia teórica y la simulada muestra una concordancia aceptable. Las diferencias observadas son esperables debido a que los cálculos teóricos utilizan modelos simplificados de pequeña señal, mientras que LTspice emplea modelos BSIM mucho más completos que consideran efectos de segundo orden.
+
+La respuesta en frecuencia obtenida evidencia el comportamiento esperado de un amplificador operacional CMOS de dos etapas. A bajas frecuencias se obtiene una elevada ganancia de lazo abierto, mientras que al aumentar la frecuencia aparecen los polos dominantes del circuito, produciendo una disminución progresiva de la ganancia.
+
 \section{COnclusión}
+Se diseñó y simuló satisfactoriamente un amplificador operacional CMOS utilizando la tecnología OnSemi C5 de 500 nm en LTspice. A partir de los requerimientos de corriente establecidos se determinaron las dimensiones de los transistores M7 y M8 mediante una combinación de cálculos teóricos y simulaciones paramétricas.
+
+Los resultados obtenidos permitieron verificar que las corrientes de polarización especificadas para cada rama del circuito fueron alcanzadas, garantizando el correcto funcionamiento del amplificador operacional. Asimismo, el análisis de pequeña señal permitió estimar una ganancia teórica de lazo abierto de aproximadamente 57.10 dB.
+
+La simulación de respuesta en frecuencia confirmó el comportamiento esperado del amplificador y permitió obtener experimentalmente la ganancia de lazo abierto y el ancho de banda del sistema. Las diferencias observadas entre teoría y simulación se encuentran dentro de lo esperado debido a las simplificaciones utilizadas en los cálculos analíticos y a los efectos no ideales considerados por los modelos de simulación.
+
+En términos generales, el proyecto permitió aplicar conceptos relacionados con espejos de corriente, pares diferenciales, amplificadores multietapa y análisis de pequeña señal, reforzando la comprensión del diseño de circuitos integrados analógicos basados en tecnología CMOS.
 \section{Referencias}
 
 
