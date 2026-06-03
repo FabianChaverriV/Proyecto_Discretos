@@ -1,6 +1,6 @@
 LTspice 24.1.6 for Windows
-Circuit: C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyecto\Proyecto_OPAMP_C5\opamp-top.net
-Start Time: Tue May  5 00:05:00 2026
+Circuit: C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyectodiscr\Proyecto_Discretos\proyecto\Proyecto_OPAMP_C5\opamp-top.net
+Start Time: Tue Jun  2 15:18:53 2026
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
@@ -11,7 +11,6 @@ tnom = 27
 temp = 27
 method = trap
 WARNING: Node x1:nc_01 is floating.
-WARNING: Node x1:n005 is floating.
 
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
@@ -22,10 +21,10 @@ Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 14.986 seconds.
+Total elapsed time: 14.702 seconds.
 
 Files loaded:
-C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyecto\Proyecto_OPAMP_C5\opamp-top.net
+C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyectodiscr\Proyecto_Discretos\proyecto\Proyecto_OPAMP_C5\opamp-top.net
 C:\Users\adopa\AppData\Local\LTspice\lib\cmp\standard.mos
-C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyecto\Proyecto_OPAMP_C5\C5_models.txt
+C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyectodiscr\Proyecto_Discretos\proyecto\Proyecto_OPAMP_C5\C5_models.txt
 
