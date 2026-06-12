@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.9)  31 MAY 2026 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.8)  11 JUN 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (bare_jrnl.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
-(/home/fabianch/.miktex/texmfs/install/tex/latex/ieeetran/IEEEtran.cls
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -19,7 +19,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks17
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 03.
-(/home/fabianch/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -115,7 +115,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen171
 \c@IEEEbiography=\count289
 \@IEEEtranrubishbin=\box54
-) (/home/fabianch/.miktex/texmfs/install/tex/generic/babel/babel.sty
+) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count290
@@ -134,9 +134,9 @@ on input line 2086.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
 on input line 2111.
 \U@D=\dimen172
-\l@unhyphenated=\language1
+\l@unhyphenated=\language79
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count291
 Package babel Info: Configuration files are deprecated, as
@@ -146,25 +146,18 @@ Package babel Info: Configuration files are deprecated, as
 *************************************
 * Local config file bblopts.cfg used
 *
-(/home/fabianch/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/babel/locale/es/babel-spanis
-h.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+-spanish.tex)
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 4330.
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/babel-spanish/spanish.ldf
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-
-
-Package babel Warning: No hyphenation patterns were preloaded for
-(babel)                the language 'Spanish' into the format.
-(babel)                Please, configure your TeX system to add them and
-(babel)                rebuild the format. Now I will use the patterns
-(babel)                preloaded for \language=0 instead on input line 51.
-
 \es@quottoks=\toks18
 \es@quotdepth=\count292
 Package babel Info: Making " an active character on input line 570.
@@ -176,7 +169,7 @@ LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1)
 on input line 3.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
  on input line 3.
- (/home/fabianch/.miktex/texmfs/install/tex/latex/float/float.sty
+ (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count293
 \float@exts=\toks19
@@ -184,341 +177,57 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box56
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/home/fabianch/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/home/fabianch/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count294
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count295
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(/home/fabianch/.miktex/texmfs/install/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-\c@tabx@nest=\count296
-\c@listtotal=\count297
-\c@listcount=\count298
-\c@liststart=\count299
-\c@liststop=\count300
-\c@citecount=\count301
-\c@citetotal=\count302
-\c@multicitecount=\count303
-\c@multicitetotal=\count304
-\c@instcount=\count305
-\c@maxnames=\count306
-\c@minnames=\count307
-\c@maxitems=\count308
-\c@minitems=\count309
-\c@citecounter=\count310
-\c@maxcitecounter=\count311
-\c@savedcitecounter=\count312
-\c@uniquelist=\count313
-\c@uniquename=\count314
-\c@refsection=\count315
-\c@refsegment=\count316
-\c@maxextratitle=\count317
-\c@maxextratitleyear=\count318
-\c@maxextraname=\count319
-\c@maxextradate=\count320
-\c@maxextraalpha=\count321
-\c@abbrvpenalty=\count322
-\c@highnamepenalty=\count323
-\c@lownamepenalty=\count324
-\c@maxparens=\count325
-\c@parenlevel=\count326
-\blx@tempcnta=\count327
-\blx@tempcntb=\count328
-\blx@tempcntc=\count329
-\c@blx@maxsection=\count330
-\blx@maxsegment@0=\count331
-\blx@notetype=\count332
-\blx@parenlevel@text=\count333
-\blx@parenlevel@foot=\count334
-\blx@sectionciteorder@0=\count335
-\blx@sectionciteorderinternal@0=\count336
-\blx@entrysetcounter=\count337
-\blx@biblioinstance=\count338
-\labelnumberwidth=\skip52
-\labelalphawidth=\skip53
-\biblabelsep=\skip54
-\bibitemsep=\skip55
-\bibnamesep=\skip56
-\bibinitsep=\skip57
-\bibparsep=\skip58
-\bibhang=\skip59
-\blx@bcfin=\read3
-\blx@bcfout=\write3
-\blx@langwohyphens=\language2
-\c@mincomprange=\count339
-\c@maxcomprange=\count340
-\c@mincompwidth=\count341
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'ieee.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count342
-\c@savedafterword=\count343
-\c@annotator=\count344
-\c@savedannotator=\count345
-\c@author=\count346
-\c@savedauthor=\count347
-\c@bookauthor=\count348
-\c@savedbookauthor=\count349
-\c@commentator=\count350
-\c@savedcommentator=\count351
-\c@editor=\count352
-\c@savededitor=\count353
-\c@editora=\count354
-\c@savededitora=\count355
-\c@editorb=\count356
-\c@savededitorb=\count357
-\c@editorc=\count358
-\c@savededitorc=\count359
-\c@foreword=\count360
-\c@savedforeword=\count361
-\c@holder=\count362
-\c@savedholder=\count363
-\c@introduction=\count364
-\c@savedintroduction=\count365
-\c@namea=\count366
-\c@savednamea=\count367
-\c@nameb=\count368
-\c@savednameb=\count369
-\c@namec=\count370
-\c@savednamec=\count371
-\c@translator=\count372
-\c@savedtranslator=\count373
-\c@shortauthor=\count374
-\c@savedshortauthor=\count375
-\c@shorteditor=\count376
-\c@savedshorteditor=\count377
-\c@labelname=\count378
-\c@savedlabelname=\count379
-\c@institution=\count380
-\c@savedinstitution=\count381
-\c@lista=\count382
-\c@savedlista=\count383
-\c@listb=\count384
-\c@savedlistb=\count385
-\c@listc=\count386
-\c@savedlistc=\count387
-\c@listd=\count388
-\c@savedlistd=\count389
-\c@liste=\count390
-\c@savedliste=\count391
-\c@listf=\count392
-\c@savedlistf=\count393
-\c@location=\count394
-\c@savedlocation=\count395
-\c@organization=\count396
-\c@savedorganization=\count397
-\c@origlocation=\count398
-\c@savedoriglocation=\count399
-\c@origpublisher=\count400
-\c@savedorigpublisher=\count401
-\c@publisher=\count402
-\c@savedpublisher=\count403
-\c@language=\count404
-\c@savedlanguage=\count405
-\c@origlanguage=\count406
-\c@savedoriglanguage=\count407
-\c@pageref=\count408
-\c@savedpageref=\count409
-\shorthandwidth=\skip60
-\shortjournalwidth=\skip61
-\shortserieswidth=\skip62
-\shorttitlewidth=\skip63
-\shortauthorwidth=\skip64
-\shorteditorwidth=\skip65
-\locallabelnumberwidth=\skip66
-\locallabelalphawidth=\skip67
-\localshorthandwidth=\skip68
-\localshortjournalwidth=\skip69
-\localshortserieswidth=\skip70
-\localshorttitlewidth=\skip71
-\localshortauthorwidth=\skip72
-\localshorteditorwidth=\skip73
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count410
-\c@textcitetotal=\count411
-\c@textcitemaxnames=\count412
-\c@biburlbigbreakpenalty=\count413
-\c@biburlbreakpenalty=\count414
-\c@biburlnumpenalty=\count415
-\c@biburlucpenalty=\count416
-\c@biburllcpenalty=\count417
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count418
-)
-Package biblatex Info: Trying to load bibliography style 'ieee'...
-Package biblatex Info: ... file 'ieee.bbx' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count419
-\c@bbx:relatedtotal=\count420
-))))
-Package biblatex Info: Trying to load citation style 'ieee'...
-Package biblatex Info: ... file 'ieee.cbx' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
-Package biblatex Info: Trying to load citation style 'numeric-verb'...
-Package biblatex Info: ... file 'numeric-verb.cbx' found.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/cbx/numeric-verb.cbx
-File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-Package biblatex Info: Redefining '\textcites'.
-))
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/l3backend-dev/l3backend-pdftex
-.def
-File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count421
-))
-Package biblatex Info: ... and expl3
-(biblatex)             2026-01-19 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty
-(/home/fabianch/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2025-10-09 L3 Experimental document command parser
-)
-Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (/home/fabianch/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count422
-\csq@gtype=\count423
-\csq@glevel=\count424
-\csq@qlevel=\count425
-\csq@maxlvl=\count426
-\csq@tshold=\count427
+\csq@reset=\count295
+\csq@gtype=\count296
+\csq@glevel=\count297
+\csq@qlevel=\count298
+\csq@maxlvl=\count299
+\csq@tshold=\count300
 \csq@ltx@everypar=\toks22
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/csquotes/csquotes.def
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/csquotes/csquotes.cfg
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+)) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen173
 \Gin@req@width=\dimen174
-)
-(/home/fabianch/.miktex/texmfs/install/tex/latex/caption/caption.sty
+) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen175
 \captionmargin=\dimen176
@@ -547,37 +256,37 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count428
-\c@continuedfloat=\count429
+\c@caption@flags=\count301
+\c@continuedfloat=\count302
 Package caption Info: float package is loaded.
-) (/home/fabianch/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip74
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen183
 ))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen184
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count430
+\inf@bad=\count303
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count431
-\leftroot@=\count432
+\uproot@=\count304
+\leftroot@=\count305
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count433
-\DOTSCASE@=\count434
+\classnum@=\count306
+\DOTSCASE@=\count307
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -590,20 +299,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen185
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count435
+\macc@depth=\count308
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count436
-\dotsspace@=\muskip22
-\c@parentequation=\count437
-\dspbrk@lvl=\count438
+\c@MaxMatrixCols=\count309
+\dotsspace@=\muskip17
+\c@parentequation=\count310
+\dspbrk@lvl=\count311
 \tag@help=\toks24
-\row@=\count439
-\column@=\count440
-\maxfields@=\count441
+\row@=\count312
+\column@=\count313
+\maxfields@=\count314
 \andhelp@=\toks25
 \eqnshift@=\dimen186
 \alignsep@=\dimen187
@@ -612,28 +321,28 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen190
 \lineht@=\dimen191
 \@envbody=\toks26
-\multlinegap=\skip75
-\multlinetaggap=\skip76
+\multlinegap=\skip53
+\multlinetaggap=\skip54
 \mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks28
 \thm@bodyfont=\toks29
 \thm@headfont=\toks30
 \thm@notefont=\toks31
 \thm@headpunct=\toks32
-\thm@preskip=\skip77
-\thm@postskip=\skip78
-\thm@headsep=\skip79
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
 \dth@everypar=\toks33
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -641,42 +350,48 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/circuitikz/circuitikz.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/circuitikz\circuitikz.s
+ty
 Package: circuitikz 2026/02/04{} The CircuiTikz circuit drawing package version
  1.8.5
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common
-.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
 \pgfutil@everybye=\toks34
 \pgfutil@tempdima=\dimen192
 \pgfutil@tempdimb=\dimen193
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.
-def
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
 \pgfutil@abb=\box59
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.te
-x (/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.
-tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.t
-ex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
 \pgfkeys@pathtoks=\toks35
 \pgfkeys@temptoks=\toks36
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibrary
-filtered.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks37
 ))
 \pgf@x=\dimen194
@@ -689,49 +404,49 @@ filtered.code.tex
 \pgf@yc=\dimen257
 \pgf@xd=\dimen258
 \pgf@yd=\dimen259
-\w@pgf@writea=\write4
-\r@pgf@reada=\read4
-\c@pgf@counta=\count442
-\c@pgf@countb=\count443
-\c@pgf@countc=\count444
-\c@pgf@countd=\count445
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count315
+\c@pgf@countb=\count316
+\c@pgf@countc=\count317
+\c@pgf@countd=\count318
 \t@pgf@toka=\toks38
 \t@pgf@tokb=\toks39
 \t@pgf@tokc=\toks40
-\pgf@sys@id@count=\count446
+\pgf@sys@id@count=\count319
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdfte
-x.def
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-commo
-n-pdf.def
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpa
-th.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count447
-\pgfsyssoftpath@bigbuffer@items=\count448
+\pgfsyssoftpath@smallbuffer@items=\count320
+\pgfsyssoftpath@bigbuffer@items=\count321
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoc
-ol.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -742,49 +457,51 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.
-tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.te
-x)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.
-tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
 \pgfmath@dimen=\dimen260
-\pgfmath@count=\count449
+\pgfmath@count=\count322
 \pgfmath@box=\box60
 \pgfmath@toks=\toks41
 \pgfmath@stack@operand=\toks42
 \pgfmath@stack@operation=\toks43
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.co
-de.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ba
-sic.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tr
-igonometric.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ra
-ndom.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.co
-mparison.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ba
-se.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ro
-und.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mi
-sc.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.in
-tegerarithmetics.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.te
-x)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.t
-ex
-\c@pgfmathroundto@lastzeros=\count450
-))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
+\c@pgfmathroundto@lastzeros=\count323
+))
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen261
 \pgf@picmaxx=\dimen262
@@ -801,127 +518,131 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@zx=\dimen273
 \pgf@zy=\dimen274
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathco
-nstruct.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen275
 \pgf@path@lasty=\dimen276
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathus
-age.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen277
 \pgf@shorten@start@additional=\dimen278
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes
-.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count451
+\pgf@picture@serial@count=\count324
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphi
-cstate.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen279
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransf
-ormations.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen280
 \pgf@pt@y=\dimen281
 \pgf@pt@temp=\dimen282
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.
-code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobject
-s.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpr
-ocessing.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows
-.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen283
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.
-code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen284
-\pgf@sys@shading@range@num=\count452
-\pgf@shadingcount=\count453
+\pgf@sys@shading@range@num=\count325
+\pgf@shadingcount=\count326
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.
-code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreextern
-al.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box64
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers
-.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransp
-arency.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatter
-ns.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.co
-de.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.
-code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box65
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.co
-de.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-vers
-ion-0-65.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen285
 \pgf@nodesepend=\dimen286
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-vers
-ion-1-18.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
-(/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.t
-ex)) (/home/fabianch/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.te
-x
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen287
 \pgffor@skip=\dimen288
 \pgffor@stack=\toks44
 \pgffor@toks=\toks45
 ))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.
-code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplot
-handlers.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count454
+\pgf@plot@mark@count=\count327
 \pgfplotmarksize=\dimen289
 )
 \tikz@lastx=\dimen290
@@ -936,51 +657,51 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@figbox@bg=\box67
 \tikz@tempbox=\box68
 \tikz@tempbox@bg=\box69
-\tikztreelevel=\count455
-\tikznumberofchildren=\count456
-\tikznumberofcurrentchild=\count457
-\tikz@fig@count=\count458
+\tikztreelevel=\count328
+\tikznumberofchildren=\count329
+\tikznumberofcurrentchild=\count330
+\tikz@fig@count=\count331
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.
-code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count459
-\pgfmatrixcurrentcolumn=\count460
-\pgf@matrix@numberofcolumns=\count461
+\pgfmatrixcurrentrow=\count332
+\pgfmatrixcurrentcolumn=\count333
+\pgf@matrix@numberofcolumns=\count334
 )
-\tikz@expandcount=\count462
+\tikz@expandcount=\count335
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
-ries/tikzlibrarytopaths.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
-ries/tikzlibrarycalc.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarro
-ws.meta.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowinset=\dimen298
 \pgfarrowlength=\dimen299
 \pgfarrowwidth=\dimen300
 \pgfarrowlinewidth=\dimen301
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
-ries/tikzlibrarybending.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarybending.code.tex
 File: tikzlibrarybending.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulebending
-.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+bending.code.tex
 File: pgfmodulebending.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulenonline
-artransformations.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+nonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgftransformnonlinearflatness=\dimen302
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibrarycurv
-ilinear.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+arycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@curvilinear@time@a=\dimen303
 \pgf@curvilinear@length@a=\dimen304
@@ -990,15 +711,15 @@ File: pgflibrarycurvilinear.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 \pgf@arrows@the@rigidity=\dimen308
 ))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
-ries/tikzlibraryfpu.code.tex
-(/home/fabianch/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfpu.
-code.tex))
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirc.defines.t
-ex
-\pgf@circ@count@a=\count463
-\pgf@circ@count@b=\count464
-\pgf@circ@count@c=\count465
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryfpu.code.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex))
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirc.de
+fines.tex
+\pgf@circ@count@a=\count336
+\pgf@circ@count@b=\count337
+\pgf@circ@count@c=\count338
 \pgf@circ@res@up=\dimen309
 \pgf@circ@res@down=\dimen310
 \pgf@circ@res@zero=\dimen311
@@ -1011,62 +732,84 @@ ex
 \pgf@circ@scaled@Rlen=\dimen318
 \pgfstartlinewidth=\dimen319
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircutils.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircuti
+ls.tex
 \ctikz@scratchbox=\box70
-) (/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircpath.tex
-\ctikz@vif@count=\count466
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircshapes.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircpat
+h.tex
+\ctikz@vif@count=\count339
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircmonopoles.
-tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircbipoles.te
-x)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirctripoles.t
-ex
-\pgf@circ@res@count=\count467
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircsha
+pes.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmon
+opoles.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircbip
+oles.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirctri
+poles.tex
+\pgf@circ@res@count=\count340
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircquadpoles.
-tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircmultipoles
-.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirclabel.tex)
-
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircvoltage.te
-x
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircqua
+dpoles.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircmul
+tipoles.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirclab
+el.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircvol
+tage.tex
 \pgfcirc@labelshift=\dimen320
 )
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcirccurrent.te
-x)
-(/home/fabianch/.miktex/texmfs/install/tex/generic/circuitikz/pgfcircflow.tex)
-(/home/fabianch/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
-(/home/fabianch/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
-\xs_counta=\count468
-\xs_countb=\count469
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcirccur
+rent.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pgfcircflo
+w.tex)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count341
+\xs_countb=\count342
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-(/home/fabianch/.miktex/texmfs/install/tex/latex/siunitx/siunitx.sty
+) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count470
-\l__siunitx_number_exponent_fixed_int=\count471
-\l__siunitx_number_min_decimal_int=\count472
-\l__siunitx_number_min_integer_int=\count473
-\l__siunitx_number_round_precision_int=\count474
-\l__siunitx_number_lower_threshold_int=\count475
-\l__siunitx_number_upper_threshold_int=\count476
-\l__siunitx_number_group_first_int=\count477
-\l__siunitx_number_group_size_int=\count478
-\l__siunitx_number_group_minimum_int=\count479
+\l__siunitx_number_uncert_offset_int=\count343
+\l__siunitx_number_exponent_fixed_int=\count344
+\l__siunitx_number_min_decimal_int=\count345
+\l__siunitx_number_min_integer_int=\count346
+\l__siunitx_number_round_precision_int=\count347
+\l__siunitx_number_lower_threshold_int=\count348
+\l__siunitx_number_upper_threshold_int=\count349
+\l__siunitx_number_group_first_int=\count350
+\l__siunitx_number_group_size_int=\count351
+\l__siunitx_number_group_minimum_int=\count352
 \l__siunitx_angle_tmp_dim=\dimen321
 \l__siunitx_angle_marker_box=\box71
 \l__siunitx_angle_unit_box=\box72
-\l__siunitx_compound_count_int=\count480
+\l__siunitx_compound_count_int=\count353
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/translations/translations.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
+
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
 \l__siunitx_table_tmp_box=\box73
 \l__siunitx_table_tmp_dim=\dimen322
 \l__siunitx_table_column_width_dim=\dimen323
@@ -1077,67 +820,74 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_table_after_box=\box78
 \l__siunitx_table_before_dim=\dimen324
 \l__siunitx_table_carry_dim=\dimen325
-\l__siunitx_unit_tmp_int=\count481
-\l__siunitx_unit_position_int=\count482
-\l__siunitx_unit_total_int=\count483
-(/home/fabianch/.miktex/texmfs/install/tex/latex/tools/array.sty
+\l__siunitx_unit_tmp_int=\count354
+\l__siunitx_unit_position_int=\count355
+\l__siunitx_unit_total_int=\count356
+ (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen326
 \ar@mcellbox=\box79
 \extrarowheight=\dimen327
 \NC@list=\toks46
-\extratabsurround=\skip80
-\backup@length=\skip81
+\extratabsurround=\skip58
+\backup@length=\skip59
 \ar@cellbox=\box80
 )))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/standalone/standalone.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standalone.s
+ty
 Package: standalone 2025/02/22 v1.5a Package to include TeX sub-files with prea
 mbles
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/tools/shellesc.sty
+ (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(/home/fabianch/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
-(/home/fabianch/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks47
 \XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count484
+\XKV@depth=\count357
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/home/fabianch/.miktex/texmfs/install/tex/latex/currfile/currfile.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/currfile\currfile.sty
 Package: currfile 2024/03/14 v1.0 Provides the file path elements of the curren
 t input file
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/filehook/filehook.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/filehook\filehook.sty
 Package: filehook 2022/10/25 v0.8b Hooks for input files
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/filehook/filehook-2020.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/filehook\filehook-2020.
+sty
 Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 ))
-\c@currfiledepth=\count485
+\c@currfiledepth=\count358
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/gincltex/gincltex.sty
-(/home/fabianch/.miktex/texmfs/install/tex/latex/svn-prov/svn-prov.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/gincltex\gincltex.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/svn-prov\svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/adjustbox/adjustbox.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/adjustbox/adjcalc.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/adjustbox/trimclip.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/collectbox/collectbox.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box81
 )
@@ -1147,7 +897,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@ury=\dimen331
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/adjustbox/tc-pdftex.def
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen332
@@ -1159,232 +909,187 @@ File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 \adjbox@pdepth=\dimen338
 \adjbox@ptotalheight=\dimen339
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/ifoddpage/ifoddpage.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count486
-)
-(/home/fabianch/.miktex/texmfs/install/tex/latex/varwidth/varwidth.sty
+\c@checkoddpage=\count359
+) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box82
-\sift@deathcycles=\count487
+\sift@deathcycles=\count360
 \@vwid@loff=\dimen340
 \@vwid@roff=\dimen341
 )
 ==> First Aid for varwidth.sty applied!
 )
 \gincltex@box=\box83
-) (/home/fabianch/.miktex/texmfs/install/tex/latex/filemod/filemod-expmin.sty
+)
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/filemod\filemod-expmin.
+sty
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
  (expandable; minimal)
-))
+)) (C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (bare_jrnl.aux
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
+
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count361
+) (bare_jrnl.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 10.
+(babel)             Reported on input line 9.
 )
 \openout1 = `bare_jrnl.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 -- Lines per column: 58 (exact).
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
-(/home/fabianch/.miktex/texmfs/install/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `bare_jrnl.bcf'.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'bare_jrnl.bbl' not found.
-
-No file bare_jrnl.bbl.
-Package biblatex Info: Reference section=0 on input line 44.
-Package biblatex Info: Reference segment=0 on input line 44.
-(/home/fabianch/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count488
+\scratchcounter=\count362
 \scratchdimen=\dimen342
 \scratchbox=\box84
-\nofMPsegments=\count489
-\nofMParguments=\count490
+\nofMPsegments=\count363
+\nofMParguments=\count364
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count491
+\MPscratchCnt=\count365
 \MPscratchDim=\dimen343
-\MPnumerator=\count492
-\makeMPintoPDFobject=\count493
+\MPnumerator=\count366
+\makeMPintoPDFobject=\count367
 \everyMPtoPDFconversion=\toks50
 )
-(/home/fabianch/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-(/home/fabianch/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(/home/fabianch/.miktex/texmfs/install/tex/latex/translations/dicts/translation
-s-basic-dictionary-spanish.trsl
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 44.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+or `spanish'. on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 114
+.
 
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 114
+.
 
-
-(/home/fabianch/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+(C:\Users\Jeibi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 2237) in paragraph at lines 94--96
-[]\OT1/ptm/b/it/9 Palabras clave\OT1/ptm/b/n/9 ---IEEE, IEEEtran, journal, L[]T
-[]X, paper,
- []
+[1{C:/Users/Jeibi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Je
+ibi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-[]\OT1/ptm/m/n/10 OS amplificadores operacionales son bloques
- []
-
-
-Underfull \hbox (badness 2042) in paragraph at lines 102--103
-\OT1/ptm/m/n/10 espejos de corriente y etapas de salida. El an[]alisis y
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 108--109
-[]\OT1/ptm/m/n/10 El circuito dise[]nado corresponde a un amplificador
- []
-
-
-Underfull \hbox (badness 6412) in paragraph at lines 108--109
-\OT1/ptm/m/n/10 operacional CMOS de dos etapas implementado con
- []
-
-[1{/home/fabianch/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/fabian
-ch/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
-
-
-]
-Underfull \hbox (badness 1655) in paragraph at lines 155--156
-\OT1/ptm/m/n/10 de longitud de canal y la diferencia entre la longitud
- []
-
-
-Underfull \hbox (badness 2126) in paragraph at lines 159--160
-\OT1/ptm/m/n/10 amplificador operacional y debe conducir una corriente
- []
-
-[2]
-Overfull \hbox (4.5562pt too wide) detected at line 287
+] [2]
+Overfull \hbox (4.5562pt too wide) detected at line 293
 []\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 = (226[]4 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/
 m/n/10 10[])(102[]67 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 10[])(616[]6 \OMS/cms
 y/m/n/10 ^^B \OT1/cmr/m/n/10 10[])(50[]00 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 
 10[])
  []
 
-
-Underfull \hbox (badness 4084) in paragraph at lines 308--309
-\OT1/ptm/m/n/10 operacional utilizando los transistores MOSFET de la
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 310--311
-[]\OT1/ptm/m/n/10 La Figura 1 muestra el esquem[]atico completo del
- []
-
 <Captura de pantalla 2026-05-31 155039.png, id=22, 840.89156pt x 480.29437pt>
 File: Captura de pantalla 2026-05-31 155039.png Graphic file (type png)
 <use Captura de pantalla 2026-05-31 155039.png>
 Package pdftex.def Info: Captura de pantalla 2026-05-31 155039.png  used on inp
-ut line 314.
-(pdftex.def)             Requested size: 294.31645pt x 168.10555pt.
-
-Overfull \hbox (42.31645pt too wide) in paragraph at lines 314--315
- [][] 
- []
-
+ut line 320.
+(pdftex.def)             Requested size: 210.22237pt x 120.07329pt.
 <Captura de pantalla 2026-05-31 155024.png, id=24, 1006.51031pt x 487.8225pt>
 File: Captura de pantalla 2026-05-31 155024.png Graphic file (type png)
 <use Captura de pantalla 2026-05-31 155024.png>
 Package pdftex.def Info: Captura de pantalla 2026-05-31 155024.png  used on inp
-ut line 323.
+ut line 329.
 (pdftex.def)             Requested size: 252.0pt x 122.13396pt.
+<simulacion_W8.png, id=25, 443.40656pt x 213.04594pt>
+File: simulacion_W8.png Graphic file (type png)
+<use simulacion_W8.png>
+Package pdftex.def Info: simulacion_W8.png  used on input line 351.
+(pdftex.def)             Requested size: 252.0pt x 121.0831pt.
 [3 <./Captura de pantalla 2026-05-31 155039.png> <./Captura de pantalla 2026-05
--31 155024.png>] (bare_jrnl.aux
-LaTeX Info: Redefining \sptext on input line 10.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
+-31 155024.png> <./simulacion_W8.png>]
+<simulacion_W7.png, id=32, 443.40656pt x 212.29312pt>
+File: simulacion_W7.png Graphic file (type png)
+<use simulacion_W7.png>
+Package pdftex.def Info: simulacion_W7.png  used on input line 371.
+(pdftex.def)             Requested size: 252.0pt x 120.65524pt.
+<respuesta_frecuencia.png, id=33, 443.40656pt x 217.5628pt>
+File: respuesta_frecuencia.png Graphic file (type png)
+<use respuesta_frecuencia.png>
+Package pdftex.def Info: respuesta_frecuencia.png  used on input line 391.
+(pdftex.def)             Requested size: 252.0pt x 123.65022pt.
+ [4 <./simulacion_W7.png> <./respuesta_frecuencia.png>] (bare_jrnl.bbl) [5
+
+] (bare_jrnl.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
 )
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bare_jrnl
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'bare_jrnl.run.xml'.
-\openout1 = `bare_jrnl.run.xml'.
-
  ) 
 Here is how much of TeX's memory you used:
- 50042 strings out of 469804
- 1225961 string characters out of 5470100
- 2281267 words of memory out of 5000000
- 78166 multiletter control sequences out of 15000+600000
- 666738 words of font info for 114 fonts, out of 8000000 for 9000
- 3 hyphenation exceptions out of 8191
- 99i,7n,118p,726b,1809s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/fabianch/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.
-pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-r10.pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.
-pfb></home/fabianch/.miktex/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></
-home/fabianch/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/fa
-bianch/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_jrnl.pdf (3 pages, 171818 bytes).
+ 42953 strings out of 467867
+ 1084926 string characters out of 5418335
+ 1726816 words of memory out of 5000000
+ 71378 multiletter control sequences out of 15000+600000
+ 666246 words of font info for 113 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 99i,9n,118p,726b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Jeibi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmex10.pfb><C:/Users/Jeibi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Users/Jeibi/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><C:/Users/Jeibi/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Jeibi/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jeibi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jeibi/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jeibi/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/J
+eibi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/J
+eibi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/
+Jeibi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/
+Jeibi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_jrnl.pdf (5 pages, 251827 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

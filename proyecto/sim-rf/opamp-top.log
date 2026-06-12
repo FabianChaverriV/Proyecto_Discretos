@@ -1,6 +1,6 @@
-LTspice 24.1.6 for Windows
-Circuit: C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyectodiscr\Proyecto_Discretos\proyecto\sim-rf\opamp-top.net
-Start Time: Tue Jun  2 22:13:53 2026
+LTspice 24.1.4 for Windows
+Circuit: D:\TEC\V Semestre\Circuitos Discretos\Proyecto\Proyecto_Discretos\proyecto\sim-rf\opamp-top.net
+Start Time: Thu Jun 11 20:43:08 2026
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
@@ -19,10 +19,10 @@ Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.126 seconds.
+Total elapsed time: 0.614 seconds.
 
 Files loaded:
-C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyectodiscr\Proyecto_Discretos\proyecto\sim-rf\opamp-top.net
-C:\Users\adopa\AppData\Local\LTspice\lib\cmp\standard.mos
-C:\Users\adopa\OneDrive - Estudiantes ITCR\Escritorio\ㅤ\TEC\V_semestre\Circuitos discretos\proyectodiscr\Proyecto_Discretos\proyecto\sim-rf\C5_models.txt
+D:\TEC\V Semestre\Circuitos Discretos\Proyecto\Proyecto_Discretos\proyecto\sim-rf\opamp-top.net
+C:\Users\Jeibi\AppData\Local\LTspice\lib\cmp\standard.mos
+D:\TEC\V Semestre\Circuitos Discretos\Proyecto\Proyecto_Discretos\proyecto\sim-rf\C5_models.txt
 

@@ -2,11 +2,7 @@
 \usepackage[spanish,es-tabla]{babel}
 \usepackage{float} 
 
-\usepackage[
-    backend=biber,
-    style=ieee,
-  ]{biblatex}
-\addbibresource{sample.bib}
+
 \usepackage{csquotes}
 \usepackage{graphicx}
 \usepackage[justification=centering]{caption}
@@ -46,7 +42,8 @@
 %Definición de datos del documento
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Título del trabajo
-\newcommand{\titulo}{Proyecto de circuitos discretos}
+\newcommand{\titulo}{Diseño de un OP-AMP en
+tecnología OnSemi C5}
 
 % Datos del primer autor
 \newcommand{\nombreA}{Fabián}
@@ -61,11 +58,11 @@
 % Datos del tercer autor. Si no hay terecer autor, dejar las llaves vacías
 \newcommand{\nombreC}{Adonay}
 \newcommand{\apellidoC}{Palencia Molina}
-\newcommand{\correoC}{mierdanay.1@estudiantec.cr}
+\newcommand{\correoC}{j.palencia.1@estudiantec.cr}
 % Datos del cuarto autor. Si no hay terecer autor, dejar las llaves vacías
-\newcommand{\nombreC}{Jason}
-\newcommand{\apellidoC}{Ulloa Picado}
-\newcommand{\correoC}{prostiputa@estudiantec.cr}
+\newcommand{\nombreD}{Jason}
+\newcommand{\apellidoD}{Ulloa Picado}
+\newcommand{\correoD}{j.ulloa.2@estudiantec.cr}
 
 \renewcommand{\thetable}{\arabic{table}}
 \renewcommand{\figurename}{Fig.} 
@@ -78,13 +75,19 @@
 \ifx\nombreC\undefined\else
 \\ \nombreC~\apellidoC, \correoC
 \fi
+\ifx\nombreD\undefined\else
+\\ \nombreD~\apellidoD, \correoD
+\fi
 }
 
 % make the title area
 \maketitle
 
 % Encabezado del paper
-\markboth{Circuitos discretos. \apellidoA\ifx\nombreB\undefined\else, \apellidoB\fi\ifx\nombreC\undefined\else, \apellidoC\fi. \titulo}%
+\markboth{Circuitos discretos. \apellidoA%
+\ifx\nombreB\undefined\else, \apellidoB\fi%
+\ifx\nombreC\undefined\else, \apellidoC\fi%
+\ifx\nombreD\undefined\else, \apellidoD\fi. \titulo}%
 {}
 
 % As a general rule, do not put math, special symbols or citations
@@ -96,9 +99,8 @@ En este proyecto se diseñó y simuló un amplificador operacional CMOS utilizan
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-IEEE, IEEEtran, journal, \LaTeX, paper, template.
+Amplificador operacional CMOS, LTspice, MOSFET, espejos de corriente, ganancia de lazo abierto.
 \end{IEEEkeywords}
-
 
 \section{Introducción}
 \IEEEPARstart{L}{os} amplificadores operacionales son bloques fundamentales en el diseño de circuitos electrónicos analógicos, debido a su capacidad para amplificar señales y realizar funciones como filtrado, integración, diferenciación y acondicionamiento de señales. Gracias a su alta ganancia y versatilidad, son ampliamente utilizados en sistemas de instrumentación, comunicaciones, control y procesamiento de señales.
@@ -315,7 +317,7 @@ La Figura 1 muestra el esquemático completo del amplificador operacional.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{Captura de pantalla 2026-05-31 155039.png}
+    \includegraphics[scale=0.25]{Captura de pantalla 2026-05-31 155039.png}
     \caption{Esquemático del amplificador operacional CMOS implementado en LTspice.}
     \label{fig:opamp}
 \end{figure}
@@ -402,8 +404,8 @@ Los valores finales obtenidos para los transistores ajustados mediante simulaci�
 \hline
 Transistor & $W$ [$\mu$m] & $L$ [$\mu$m] \\
 \hline
-M7 & [Valor obtenido] & 0.5 \\
-M8 & [Valor obtenido] & 0.5 \\
+M7 & 18.781214 & 0.5 \\
+M8 & 5.75 & 0.5 \\
 \hline
 \end{tabular}
 \end{table}
@@ -418,9 +420,9 @@ La Tabla \ref{tab:comparacion} presenta la comparación entre los resultados te�
 \hline
 Parámetro & Teórico & Simulado \\
 \hline
-Ganancia de lazo abierto & 57.10 dB & [Valor simulado] \\
-Frecuencia de corte & -- & [Valor simulado] \\
-Ancho de banda & -- & [Valor simulado] \\
+Ganancia de lazo abierto & 57.10 dB & 52.577739 dB \\
+Frecuencia de corte & -- & -- \\
+Ancho de banda & -- & 3.1129571 MHz\\
 \hline
 \end{tabular}
 \end{table}
@@ -439,7 +441,7 @@ La comparación entre la ganancia teórica y la simulada muestra una concordanci
 
 La respuesta en frecuencia obtenida evidencia el comportamiento esperado de un amplificador operacional CMOS de dos etapas. A bajas frecuencias se obtiene una elevada ganancia de lazo abierto, mientras que al aumentar la frecuencia aparecen los polos dominantes del circuito, produciendo una disminución progresiva de la ganancia.
 
-\section{COnclusión}
+\section{Conclusión}
 Se diseñó y simuló satisfactoriamente un amplificador operacional CMOS utilizando la tecnología OnSemi C5 de 500 nm en LTspice. A partir de los requerimientos de corriente establecidos se determinaron las dimensiones de los transistores M7 y M8 mediante una combinación de cálculos teóricos y simulaciones paramétricas.
 
 Los resultados obtenidos permitieron verificar que las corrientes de polarización especificadas para cada rama del circuito fueron alcanzadas, garantizando el correcto funcionamiento del amplificador operacional. Asimismo, el análisis de pequeña señal permitió estimar una ganancia teórica de lazo abierto de aproximadamente 57.10 dB.
@@ -447,8 +449,9 @@ Los resultados obtenidos permitieron verificar que las corrientes de polarizaci�
 La simulación de respuesta en frecuencia confirmó el comportamiento esperado del amplificador y permitió obtener experimentalmente la ganancia de lazo abierto y el ancho de banda del sistema. Las diferencias observadas entre teoría y simulación se encuentran dentro de lo esperado debido a las simplificaciones utilizadas en los cálculos analíticos y a los efectos no ideales considerados por los modelos de simulación.
 
 En términos generales, el proyecto permitió aplicar conceptos relacionados con espejos de corriente, pares diferenciales, amplificadores multietapa y análisis de pequeña señal, reforzando la comprensión del diseño de circuitos integrados analógicos basados en tecnología CMOS.
-\section{Referencias}
-
+\bibliographystyle{IEEEtran}
+\nocite{*}
+\bibliography{literatura}
 
 
 % that's all folks
